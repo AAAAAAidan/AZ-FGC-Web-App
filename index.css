@@ -28,8 +28,6 @@ body, main {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .profile-card-image {
-  border-radius: 50%;
-  width: 120px;
   height: 120px;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -41,4 +39,8 @@ body, main {
 .profile-card p {
   color: #555;
   font-size: 1rem;
+}
+
+.circular-image {
+  border-radius: 50%;
 }
